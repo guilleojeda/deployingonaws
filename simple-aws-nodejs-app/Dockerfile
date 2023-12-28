@@ -19,11 +19,8 @@ EXPOSE 3000
 # Start the app
 CMD [ "npm", "start" ]
 
-#To run locally build it with this command:
+#build it with this command:
 #docker build -t simpleawsnodejsapp .
 
 #run it with this command:
 #docker run -p 3000:3000 simpleawsnodejsapp
-
-#To run on Amazon ECS build it with this command:
-#docker buildx build --platform=linux/arm64 -t simpleawsnodejsapp .
